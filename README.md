@@ -7,3 +7,10 @@ A high-performance Sudoku game featuring a recursive backtracking solver, a rand
 * **Modular Architecture:** Strict separation of concerns to ensure maintainability:
     * **Backend:** Logic-heavy 0-indexed coordinate system.
     * **Frontend:** User-facing API using 1-indexed coordinates for intuitive interaction.
+## How to Build
+
+To build the project, run the following CMake commands in your terminal:
+
+```bash
+cmake -S . -B build
+cmake --build build
